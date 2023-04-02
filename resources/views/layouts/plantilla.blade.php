@@ -11,7 +11,6 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     <script src="https://kit.fontawesome.com/85601d370d.js" crossorigin="anonymous"></script>
-    <link rel="icon" href="favicon_electronicos.ico">
 </head>
 <body>
 <!-- Barra de Navegacion -->
