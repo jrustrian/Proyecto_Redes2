@@ -15,3 +15,11 @@ CREATE TABLE IF NOT EXISTS `bitacora` (
   `fecha` DATETIME DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY (`id`))
 ENGINE = InnoDB;
+
+@foreach ($bitacora as $registro)
+	<tr>
+		<td>{{ $registro->id }}</td>
+		<td>{{ $registro->foto }}</td>
+		<td>{{ $registro->fecha }}</td>
+	</tr>
+@endforeach

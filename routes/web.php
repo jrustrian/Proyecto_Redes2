@@ -2,6 +2,10 @@
 
 use App\Http\Controllers\SessionsController;
 use Illuminate\Support\Facades\Route;
+use App\Bitacora;
+use App\Http\Controllers\BitacoraController;
+use App\Http\Controllers\ListabitacoraController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -42,3 +46,7 @@ Route::prefix('/bitacora')->middleware('auth')->group(
         Route::get('/', [\App\Http\Controllers\BitacoraController::class, 'index'])->name('bitacoraIndex');
     }
 );
+//Route::get('/bitacora', 'ListabitacoraController@listar');
+Route::get('/ruta-bitacora', 'ListabitacoraController@listar')->name('bitacoraIndex');
+Route::get('/search-bitacora', 'ListabitacoraController@search')->name('bitacoraIndex');
+
