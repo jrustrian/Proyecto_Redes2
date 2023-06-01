@@ -5,18 +5,10 @@ use Illuminate\Support\Facades\Route;
 use App\Bitacora;
 use App\Http\Controllers\BitacoraController;
 use App\Http\Controllers\ListabitacoraController;
+use App\Http\Controllers\AlertController;
 
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
+
 
 Route::get('/', function () {
     return view('home');
@@ -30,6 +22,8 @@ Route::get('/electrosen', function (){
     return view('electrosen');
 })->name('electrosen');
 
+
+Route::get('/alert',[AlertController::class, 'index'])->name('mostrar');
 
 Route::post('/home', [\App\Http\Controllers\ComentarioController::class, 'create'])->name('comentarioCreate');
 

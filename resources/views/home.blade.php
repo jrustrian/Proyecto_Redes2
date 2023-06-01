@@ -32,6 +32,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                     <a class="dropdown-item" href="{{route('dar')}}"> <i class="fa fa-lock" aria-hidden="true"></i> DAR</a>
                     <a class="dropdown-item" href="{{route('electrosen')}}"> <i class="fas fa-car"></i> ELECTROSEN</a>
+                    <a class="dropdown-item" href="/alert">  Consulta DAR</a>
                 </div>
             </li>
         </ul>
