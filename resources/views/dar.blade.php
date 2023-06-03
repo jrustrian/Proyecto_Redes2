@@ -82,7 +82,7 @@
             <li><img src="img/dar2.jpg" class="ft" title=""></li>
             <li><img src="img/dar3.jpg" class="ft" title=""></li>
             <li><img src="img/dar5.jpg" class="ft" title=""></li>
-            <li><img src="img/dar6.jpg" class="ft" title=""></li>
+           
         </ul>
     </div>
 

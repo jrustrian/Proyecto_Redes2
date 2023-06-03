@@ -98,6 +98,43 @@
     </tr>
   </thead>
   <tbody>
+
+  <tr>
+  <td>1</td>
+  <td>
+    <img src="https://drive.google.com/uc?export=view&id=1mSRtFME1K_qT5GP5LjPLpCQ8b9S7A3Ak" alt="Imagen" width="200" height="150">
+  </td>
+  <td>El sensor PIR detecta objetos y movimientos. Foto enviada con éxito.</td>
+  <td>30/05/2023</td>
+</tr>
+
+<tr>
+  <td>2</td>
+  <td>
+    <img src="https://drive.google.com/uc?export=view&id=1SwVQ9faBDnCnUr_pIZM-xeIVn3on7_ja" alt="Imagen" width="200" height="150">
+  </td>
+  <td>El sensor PIR detecta objetos y movimientos. Foto enviada con éxito.</td>
+  <td>30/05/2023</td>
+</tr>
+
+<tr>
+  <td>3</td>
+  <td>
+    <img src="https://drive.google.com/uc?export=view&id=1CAFy01TlL24IFiQFe2vY82PZk9M3NjZm" alt="Imagen" width="200" height="150">
+  </td>
+  <td>El sensor PIR detecta objetos y movimientos. Foto enviada con éxito.</td>
+  <td>31/05/2023</td>
+</tr>
+
+<tr>
+  <td>4</td>
+  <td>
+    <img src="https://drive.google.com/uc?export=view&id=1LbDZFdWsNg1WRAsRQrF3uioTVEVLmwVt" alt="Imagen" width="200" height="150">
+  </td>
+  <td>El sensor PIR detecta objetos y movimientos. Foto enviada con éxito.</td>
+  <td>31/05/2023</td>
+</tr>
+
   @foreach($alerts as $alert )
       <tr>
           <td>{{$alert->id}}</td>
