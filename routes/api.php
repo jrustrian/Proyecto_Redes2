@@ -7,7 +7,7 @@ use App\Http\Controllers\ImagenController;
 use App\Http\Controllers\ArduinoController;
 
 Route::post('/datos', [ArduinoController::class, 'recibirDatos']);
-Route::post('/api/subir_imagen', 'ImagenController@subirImagen');
+Route::post('/api/subir_imagen', [ImagenController::class, 'subirImagen']);
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
