@@ -2,7 +2,6 @@
 
 use App\Http\Controllers\SessionsController;
 use Illuminate\Support\Facades\Route;
-use App\Bitacora;
 use App\Http\Controllers\BitacoraController;
 use App\Http\Controllers\ListabitacoraController;
 use App\Http\Controllers\AlertController;
@@ -24,8 +23,8 @@ Route::get('/electrosen', function (){
 })->name('electrosen');
 
 
-Route::post('/api/subir_imagen', 'ImagenController@subirImagen');
-Route::get('/imagenes', 'ImagenController@mostrarImagenes');
+Route::post('/api/subir_imagen', [ImagenController::class, 'subirImagen']);
+Route::get('/imagenes', [ImagenController::class, 'mostrarImagenes']);
 
 
 Route::get('/alert',[AlertController::class, 'index'])->name('mostrar');
