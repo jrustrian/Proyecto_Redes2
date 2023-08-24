@@ -87,22 +87,7 @@
     </div>
 
 
-    <div class="container videos_electrosen" id="videos">
-        <h4>Videos</h4>
-        <hr color="gray">
-        <ul>
-{{--            <li>--}}
-{{--                <iframe width="560" height="315" src="#" title="Prototipo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>--}}
-{{--            </li>--}}
-{{--            <li>--}}
-{{--                <iframe width="560" height="315" src="#" title="DAR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>--}}
-{{--            </li>--}}
-{{--            <li>--}}
-{{--                <iframe width="560" height="315" src="#" title="Pruebas ELECTROSEN" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>--}}
-{{--            </li>--}}
-        </ul>
-
-    </div>
+   
 @endsection
 
 @section('footer')
