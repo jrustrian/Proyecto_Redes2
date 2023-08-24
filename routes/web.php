@@ -6,6 +6,7 @@ use App\Bitacora;
 use App\Http\Controllers\BitacoraController;
 use App\Http\Controllers\ListabitacoraController;
 use App\Http\Controllers\AlertController;
+use App\Http\Controllers\ImagenController;
 
 
 
@@ -21,6 +22,10 @@ Route::get('/dar', function (){
 Route::get('/electrosen', function (){
     return view('electrosen');
 })->name('electrosen');
+
+
+Route::post('/api/subir_imagen', 'ImagenController@subirImagen');
+Route::get('/imagenes', 'ImagenController@mostrarImagenes');
 
 
 Route::get('/alert',[AlertController::class, 'index'])->name('mostrar');
